@@ -1,0 +1,27 @@
+.root {
+  padding: 1rem;
+}
+
+.filterInput {
+  width: 96%;
+  margin-bottom: 0.4rem;
+}
+
+.list {
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.listItem {
+  background-color: #3a5d9f;
+  color: #fdcc07;
+  padding: 0.4rem;
+  margin: 0.2rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.listItem:hover {
+  background-color: #273f6b;
+}

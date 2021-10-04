@@ -1,0 +1,94 @@
+.root {
+  padding: 1rem;
+  display: flex;
+}
+
+.root > div {
+  margin: 1rem;
+}
+
+.root h1 {
+ text-transform: uppercase;
+ font-size: 1.2rem;
+ color: #3a5d9f;
+}
+
+.root h2 {
+  text-transform: uppercase;
+  font-size: .9rem;
+  color: #3a5d9f;
+  text-align: center;
+}
+
+
+.general button {
+  background-color:#3a5d9f;
+  color: white;
+  padding: 0.4rem 0.6rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.statList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.statColumn {
+  display: flex;
+  width: 50%;
+  
+  text-align: right;
+}
+
+.statColumn dt {
+  color: #fdcc07;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  flex-grow: 1;
+}
+
+
+.statColumn dd {
+  color: #3a5d9f;
+  font-size: 2rem;
+  margin-inline-start: 0.4rem;
+}
+
+.tutorItem {
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.tutorItem:hover {
+  background-color: #c1c8ca;
+} 
+
+.moveItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.moveItem {
+  border: 1px solid #3a5d9f;
+  width: 44%;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.moveItem p {
+  font-size: 0.9rem;
+  color: #fdcc07;
+  text-transform: capitalize;
+  margin: 0.3rem 0;
+}
+
+.moveItem h3 {
+  margin: 0;
+  font-size: 0.8rem;
+  color:#3a5d9f;
+}
